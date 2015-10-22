@@ -46,6 +46,14 @@ public class TicketMachine
     {
         return balance;
     }
+    
+     /**
+     * Devuelve el total del dinero recaudado por la máquina
+     */
+    public int getTotal()
+    {
+        return total;
+    }
 
     /**
      * Receive an amount of money from a customer.
