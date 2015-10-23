@@ -91,4 +91,13 @@ public class TicketMachine
         // Clear the balance.
         balance = 0;
     }
+    
+    /**
+     * Imprime por pantalla la petición de insertar la cantidad de dinero correcta.
+     */
+     public void propmt()
+    {
+        System.out.println("Please, insert the correct amount of money");
+    }
+    
 }
