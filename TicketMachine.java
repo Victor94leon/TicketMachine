@@ -62,7 +62,15 @@ public class TicketMachine
     {
         balance = balance + amount;
     }
-
+    
+    /**
+     * Pone un nuevo precio al billete
+     */
+    public void setPrice(int newPrice)
+    {
+        price = newPrice;
+    }
+    
     /**
      * Print a ticket.
      * Update the total collected and
@@ -78,7 +86,7 @@ public class TicketMachine
         System.out.println("##################");
         System.out.println();
 
-        // Update the total collected with the balance.
+        //Update the total collected with the balance.
         total = total + balance;
         // Clear the balance.
         balance = 0;
